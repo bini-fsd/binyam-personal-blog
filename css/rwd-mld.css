@@ -1,0 +1,63 @@
+/* style rules to be used as for medium large devices */
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	nav {
+		width: 30%;
+	}
+
+	/*#main-content div,
+	.main-content {
+		display: flex;
+	}
+
+	.inner-content {
+		flex: 33.33%;
+		max-width: 33.33%;
+	}*/
+
+	figcaption {
+		font-size: 10px;
+		margin: 0 0 10px 0;
+	}
+
+	.main-content-blog {
+		display: block;
+	}
+
+	.main-content-blog h2,
+	.main-content-blog h3,
+	.blog-post-top h2,
+	.blog-post-top h3,
+	.blog-post-middle h2,
+	.blog-post-middle h3,
+	.blog-post-bottom h2,
+	.blog-post-bottom h3 {
+		width: 98%;
+	}
+
+	.blog-content-l,
+	.blog-content-m,
+	.blog-content-r {
+		margin: 0 0 15px 15px;
+	}
+
+	.blog-content-l > p,
+	.blog-content-m > p,
+	.blog-content-r > p {
+		width: 98%;
+	}
+
+	.blog-content-b,
+	.blog-content-b div,
+	.blog-content-b article,
+	.blog-content-b section,
+	.blog-content-b input,
+	.engage-users input,
+	.blog-content-l input,
+	.blog-content-m input,
+	.blog-content-r input,
+	.main-blog-post input {
+		display: block;
+		width: 99% !important;
+	}
+}
